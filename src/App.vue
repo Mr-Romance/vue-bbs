@@ -6,11 +6,13 @@
 
 <script>
     import TheHeader from '@/components/layouts/TheHeader'
+    import TheFooter from '@/components/layouts/TheFooter'
 
     export default {
         name: 'App',
         components: {
-            TheHeader
+            TheHeader,
+            TheFooter
         }
     }
 </script>
